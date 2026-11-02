@@ -1,0 +1,24 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="theme-color" content="#f7f6f2" />
+    <title>Squeekchain dashboard · Sepolia</title>
+    <meta name="description" content="Follow Squeekchain on Sepolia: the current mining round, SQK mined, live Squeek NFTs, and public contract addresses. A read-only view of a hamster-powered economy." />
+    <link rel="icon" type="image/svg+xml" href="./favicon.svg" />
+    <link rel="preload" href="./fonts/dm-sans-latin.woff2" as="font" type="font/woff2" crossorigin />
+    <meta property="og:type" content="website" />
+    <meta property="og:title" content="Squeekchain · The wheel, in numbers" />
+    <meta property="og:description" content="A public window into Squeekchain's hamster-powered economy on Sepolia. Mining rounds, SQK supply, Squeek NFTs, and contracts." />
+    <meta property="og:image" content="./social-card.png" />
+    <meta property="og:image:width" content="1200" />
+    <meta property="og:image:height" content="630" />
+    <meta name="twitter:card" content="summary_large_image" />
+  </head>
+  <body>
+    <div id="root"></div>
+    <noscript>This dashboard needs JavaScript to read Squeekchain's public API. You can still <a href="https://api.squeekchain.com/v1/economy/state">view the economy data</a> or <a href="https://docs.squeekchain.com/start/overview/">read about Squeekchain</a>.</noscript>
+    <script type="module" src="./src/main.tsx"></script>
+  </body>
+</html>
